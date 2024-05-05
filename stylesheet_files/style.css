@@ -1,0 +1,47 @@
+/*
+    fichier style pour la modification de toutes les pages
+*/
+/* importation des polices*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root {
+    /*declaration des variables attribuer à la police*/
+    --font-family-one: "DM Sans", sans-serif;
+    --font-family-two: "Lexend Deca", sans-serif;
+    --font-family-three: "Comfortaa", cursive, sans-serif;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family-one);
+}
+main{
+    margin-top: 100px;
+}
+
+footer{
+    background-color: #000;
+    background-image: url(../images/image_footer.webp);
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: 290px auto;
+    color: #fff;
+
+    width: 100%;
+}
+.footer_info{
+    color: #7fc4f2;
+    font-family: var(--font-family-two);
+    font-size: 15px;
+    text-align: justify;
+}
+.copywrite{
+    color: #666;
+    font-family: var(--font-family-two);
+    letter-spacing: 3px;
+}
+
